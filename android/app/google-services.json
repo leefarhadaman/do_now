@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171688132777",
+    "project_id": "donow-e0f27",
+    "storage_bucket": "donow-e0f27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171688132777:android:df21dec60a5659c2e0a9b8",
+        "android_client_info": {
+          "package_name": "com.example.do_now"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJec5jggjjUbg2EtoiYA8CbMELRUZ_6LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
