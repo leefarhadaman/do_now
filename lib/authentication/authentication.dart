@@ -1,5 +1,7 @@
+import 'package:do_now/view/Login/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:get/get.dart';
 
 class AuthenticationService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -64,8 +66,8 @@ class AuthenticationService {
   Future<void> signOut() async {
     try {
       await _auth.signOut();
+      Get.offAll(LoginPage());
     } catch (e) {
-      // Handle sign-out errors
       print("Sign-out error: $e");
     }
   }

@@ -21,10 +21,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      theme: ThemeData.light(), // Set the default light theme
+      darkTheme: ThemeData.dark(), // Set the default dark theme
+      themeMode: ThemeMode.system, // Set the default theme mode to follow system settings
       home: SplashView(),
     );
   }
